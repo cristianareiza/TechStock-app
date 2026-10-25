@@ -10,6 +10,26 @@ Aplicación web full stack para una **tienda de tecnología** con dos módulos:
 
 ---
 
+## Capturas
+
+**Inicio de sesión**
+
+![Inicio de sesión](docs/capturas/login.png)
+
+**Panel**
+
+![Panel](docs/capturas/panel.png)
+
+**Productos**
+
+![Productos](docs/capturas/productos.png)
+
+**Usuarios**
+
+![Usuarios](docs/capturas/usuarios.png)
+
+---
+
 ## 1. Cómo ejecutarla
 
 **Requisito:** [Node.js](https://nodejs.org) 22.13 o superior (se recomienda la versión LTS actual). No hay que instalar ninguna base de datos: se usa el SQLite integrado en Node.js.
