@@ -1,0 +1,22 @@
+{
+  "name": "techstock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TechStock: aplicación web de gestión de usuarios y productos (inventario) para tiendas de tecnología",
+  "author": "Cristian Camilo Areiza Restrepo",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently -n api,web -c green,cyan \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend && npm run build --prefix backend",
+    "start": "npm start --prefix backend",
+    "test": "npm test --prefix backend && npm test --prefix frontend",
+    "seed": "npm run seed --prefix backend"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
